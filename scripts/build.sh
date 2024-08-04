@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -rf abi && mkdir -p abi/messaging abi/omnichain
-rm -rf typescript-types && mkdir typescript-types
+# rm -rf abi && mkdir -p abi/messaging abi/omnichain
+# rm -rf typescript-types && mkdir typescript-types
 
 for dir in ./messaging/*/ ./omnichain/*/; do
   subdir=$(echo $dir | cut -d'/' -f2)
